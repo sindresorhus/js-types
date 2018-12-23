@@ -1,38 +1,38 @@
 {
-  "name": "js-types",
-  "version": "1.0.0",
-  "description": "List of JavaScript types",
-  "license": "MIT",
-  "repository": "sindresorhus/js-types",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "xo && node test.js"
-  },
-  "main": "js-types.json",
-  "files": [
-    "js-types.json"
-  ],
-  "keywords": [
-    "js",
-    "javascript",
-    "ecmascript",
-    "builtin",
-    "types",
-    "type",
-    "data",
-    "list",
-    "array",
-    "json"
-  ],
-  "devDependencies": {
-    "ava": "0.0.4",
-    "xo": "*"
-  }
+	"name": "js-types",
+	"version": "1.0.0",
+	"description": "List of JavaScript types",
+	"license": "MIT",
+	"repository": "sindresorhus/js-types",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"main": "js-types.json",
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"js-types.json"
+	],
+	"keywords": [
+		"js",
+		"javascript",
+		"ecmascript",
+		"builtin",
+		"types",
+		"type",
+		"data",
+		"list",
+		"array",
+		"json"
+	],
+	"devDependencies": {
+		"ava": "^1.0.1",
+		"xo": "^0.23.0"
+	}
 }

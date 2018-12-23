@@ -2,20 +2,20 @@
 
 > List of [JavaScript types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
-The list is just a [JSON file](js-types.json) and can be used wherever.
+The list is just a [JSON file](js-types.json) and can be used anywhere.
 
 
 ## Install
 
 ```
-$ npm install --save js-types
+$ npm install js-types
 ```
 
 
 ## Usage
 
 ```js
-var jsTypes = require('js-types');
+const jsTypes = require('js-types');
 
 console.log(jsTypes);
 //=> ['Array', 'ArrayBuffer', 'Boolean', ...]
@@ -24,4 +24,4 @@ console.log(jsTypes);
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

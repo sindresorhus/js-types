@@ -1,10 +1,9 @@
-'use strict';
-var test = require('ava');
-var jsTypes = require('./js-types');
+import test from 'ava';
+import jsTypes from './js-types';
 
-test(function (t) {
-	t.assert(Array.isArray(jsTypes));
-	t.assert(jsTypes.length > 0);
-	t.assert(jsTypes.indexOf('Array') !== -1);
-	t.assert(jsTypes.indexOf('Number') !== -1);
+test('main', t => {
+	t.true(Array.isArray(jsTypes));
+	t.true(jsTypes.length > 0);
+	t.true(jsTypes.includes('Array'));
+	t.true(jsTypes.includes('Number'));
 });
