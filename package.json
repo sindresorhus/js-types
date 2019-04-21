@@ -9,15 +9,17 @@
 		"email": "sindresorhus@gmail.com",
 		"url": "sindresorhus.com"
 	},
-	"main": "js-types.json",
 	"engines": {
 		"node": ">=6"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"test": "xo && ava && tsd"
 	},
 	"files": [
-		"js-types.json"
+		"index.js",
+		"index.d.ts",
+		"js-types.json",
+		"js-types.json.d.ts"
 	],
 	"keywords": [
 		"js",
@@ -32,7 +34,8 @@
 		"json"
 	],
 	"devDependencies": {
-		"ava": "^1.0.1",
-		"xo": "^0.23.0"
+		"ava": "^1.4.1",
+		"tsd": "^0.7.2",
+		"xo": "^0.24.0"
 	}
 }
