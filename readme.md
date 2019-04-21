@@ -18,7 +18,7 @@ $ npm install js-types
 const jsTypes = require('js-types');
 
 console.log(jsTypes);
-//=> ['Array', 'ArrayBuffer', 'Boolean', ...]
+//=> ['Array', 'ArrayBuffer', 'Boolean', …]
 ```
 
 

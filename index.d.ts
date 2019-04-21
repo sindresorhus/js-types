@@ -6,7 +6,7 @@ List of [JavaScript types](https://developer.mozilla.org/en-US/docs/Web/JavaScri
 import jsTypes = require('js-types');
 
 console.log(jsTypes);
-//=> ['Array', 'ArrayBuffer', 'Boolean', ...]
+//=> ['Array', 'ArrayBuffer', 'Boolean', …]
 ```
 */
 declare const jsTypes: readonly string[];

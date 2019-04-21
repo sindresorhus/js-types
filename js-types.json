@@ -20,6 +20,7 @@
 	"Promise",
 	"RegExp",
 	"Set",
+	"SharedArrayBuffer",
 	"String",
 	"Symbol",
 	"Uint16Array",
