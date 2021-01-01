@@ -1,4 +1,4 @@
-# js-types [![Build Status](https://travis-ci.org/sindresorhus/js-types.svg?branch=master)](https://travis-ci.org/sindresorhus/js-types)
+# js-types
 
 > List of [JavaScript types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
