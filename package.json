@@ -23,8 +23,7 @@
 	"files": [
 		"index.js",
 		"index.d.ts",
-		"js-types.json",
-		"js-types.json.d.ts"
+		"js-types.json"
 	],
 	"keywords": [
 		"js",
@@ -45,7 +44,8 @@
 	},
 	"xo": {
 		"rules": {
-			"import/extensions": "off"
+			"import/extensions": "off",
+			"unicorn/import-index": "off"
 		}
 	}
 }
