@@ -4,16 +4,21 @@
 	"description": "List of JavaScript types",
 	"license": "MIT",
 	"repository": "sindresorhus/js-types",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
+	},
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
 	},
 	"engines": {
-		"node": ">=6"
+		"node": ">=18"
 	},
 	"scripts": {
-		"test": "xo && ava && tsd"
+		"test": "xo && ava && tsc index.d.ts"
 	},
 	"files": [
 		"index.js",
@@ -35,7 +40,7 @@
 	],
 	"devDependencies": {
 		"ava": "^1.4.1",
-		"tsd": "^0.7.2",
+		"typescript": "^5.2.2",
 		"xo": "^0.24.0"
 	},
 	"xo": {

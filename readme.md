@@ -4,24 +4,17 @@
 
 The list is just a [JSON file](js-types.json) and can be used anywhere.
 
-
 ## Install
 
+```sh
+npm install js-types
 ```
-$ npm install js-types
-```
-
 
 ## Usage
 
 ```js
-const jsTypes = require('js-types');
+import jsTypes from 'js-types';
 
 console.log(jsTypes);
 //=> ['Array', 'ArrayBuffer', 'Boolean', …]
 ```
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

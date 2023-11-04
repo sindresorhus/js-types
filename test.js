@@ -1,5 +1,5 @@
 import test from 'ava';
-import jsTypes from './js-types';
+import jsTypes from './js-types.js';
 
 test('main', t => {
 	t.true(Array.isArray(jsTypes));
