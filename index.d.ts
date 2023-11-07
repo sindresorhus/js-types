@@ -11,4 +11,4 @@ console.log(jsTypes);
 */
 declare const jsTypes: readonly string[];
 
-export = jsTypes;
+export default jsTypes;

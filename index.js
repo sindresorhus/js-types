@@ -1,3 +1,3 @@
-'use strict';
+import jsTypes from './js-types.json' with {type: 'json'};
 
-module.exports = require('./js-types.json');
+export default jsTypes;

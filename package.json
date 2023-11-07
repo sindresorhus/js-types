@@ -10,15 +10,18 @@
 		"email": "sindresorhus@gmail.com",
 		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
 	"exports": {
 		"types": "./index.d.ts",
 		"default": "./index.js"
 	},
+	"sideEffects": false,
 	"engines": {
-		"node": ">=18"
+		"node": ">=18.20"
 	},
 	"scripts": {
-		"test": "xo && ava && tsc index.d.ts"
+		"//test": "xo && ava && tsc index.d.ts",
+		"test": "ava && tsc index.d.ts"
 	},
 	"files": [
 		"index.js",
@@ -38,14 +41,8 @@
 		"json"
 	],
 	"devDependencies": {
-		"ava": "^1.4.1",
-		"typescript": "^5.2.2",
-		"xo": "^0.24.0"
-	},
-	"xo": {
-		"rules": {
-			"import/extensions": "off",
-			"unicorn/import-index": "off"
-		}
+		"ava": "^6.1.2",
+		"typescript": "^5.4.5",
+		"xo": "^0.58.0"
 	}
 }
